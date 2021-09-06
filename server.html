@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Server Status</title>
+  <link rel="stylesheet" href="server.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="server.js"></script>
+</head>
+<body onload="startup()">
+  <header>
+
+  </header>
+  <section class="flex-container">
+  <div class="server-table">
+    <table class="table table-striped table-dark">
+      <thead>
+        <tr>
+          <th scope="col">Name Servers</th>
+          <th scope="col">Status</th>
+          <th scope="col">Bandwidth</th>
+          <th scope="col">Handler</th>
+          <th scope="col">See Graph</th>
+          <th scope="col">Change Machine Configurations</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Gochiwali</th>
+          <td>On</td>
+          <td>150Gb</td>
+          <td>Admin</td>
+          <td>Click to Open</td>
+          <td>Configuration Need No Change</td>
+        </tr>
+        <tr>
+          <th scope="row">Secundarabad</th>
+          <td>On</td>
+          <td>350Gb</td>
+          <td>Random-User1</td>
+          <td>Click to Open</td>
+          <td>Configuration Need No Change</td>
+        </tr>
+        <tr>
+          <th scope="row">Trivandaram</th>
+          <td>On</td>
+          <td>200Gb</td>
+          <td>Random-User54</td>
+          <td>Click to Open</td>
+          <td>Configuration Need No Change</td>
+        </tr>
+        <tr>
+          <th scope="row">Bhubaneshwar</th>
+          <td>On</td>
+          <td>100Gb</td>
+          <td>Random-User6</td>
+          <td>Click to Open</td>
+          <td>Configuration Need No Change</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="control-set">
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+  </div>
+</section>
+</body>
+</html>
